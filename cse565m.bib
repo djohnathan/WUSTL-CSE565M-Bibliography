@@ -161,7 +161,26 @@
   keywords={Hardware;Field programmable gate arrays;Tools;Radar;Automotive engineering;Radar signal processing;Design methodology;High-Level Synthesis (HLS);Hardware Description Language (HDL);Automotive Radar Signal Processing System;Register Transfer Level (RTL);Xilinx Vivado HLS;Quality-of-Result (QoR)},
   doi={10.1109/CCECE47787.2020.9255725}}
 
-
+@INPROCEEDINGS{djohnathanFS24,
+    owner = {Johnathan Dunker},
+    author = {Ye, Wenhua and Zhou, Xu and Zhou, Joey and Chen, Cen and Li, Kenli},
+    title = {Accelerating Attention Mechanism on FPGAs based on Efficient Reconfigurable Systolic Array},
+    year = {2023},
+    issue_date = {November 2023},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    volume = {22},
+    number = {6},
+    issn = {1539-9087},
+    url = {https://doi.org/10.1145/3549937},
+    doi = {10.1145/3549937},
+    abstract = {Transformer model architectures have recently received great interest in natural language, machine translation, and computer vision, where attention mechanisms are their building blocks. However, the attention mechanism is expensive because of its intensive matrix computations and complicated data flow. The existing hardware architecture has some disadvantages for the computing structure of attention, such as inflexibility and low efficiency. Most of the existing papers accelerate attention by reducing the amount of computation through various pruning algorithms, which will affect the results to a certain extent with different sparsity. This paper proposes the hardware accelerator for the multi-head attention (MHA) on field-programmable gate arrays (FPGAs) with reconfigurable architecture, efficient systolic array, and hardware-friendly radix-2 softmax. We propose a novel method called Four inputs Processing Element (FPE) to double the computation rate of the data-aware systolic array (SA) and make it efficient and load balance. Especially, the computation framework is well designed to ensure the utilization of SA efficiently. Our design is evaluated on a Xilinx Alveo U250 card, and the proposed architecture achieves 51.3\texttimes{}, 17.3\texttimes{} improvement in latency, and 54.4\texttimes{}, 17.9\texttimes{} energy savings compared to CPU and GPU.},
+    journal = {ACM Trans. Embed. Comput. Syst.},
+    month = nov,
+    articleno = {93},
+    numpages = {22},
+    keywords = {Transformer, attention, FPGA, reconfigurable systolic array, softmax, Accelerator}
+}
 
 @Comment{jabref-meta: databaseType:bibtex;}
 
